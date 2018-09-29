@@ -4,3 +4,10 @@ I implemented a simple compiler that generates A86 Assembly code for a sequence 
 - I assume that all values and results of operations will be 32-bit values, all numbers are non-negative integers, and an undefined variable has value 0.
 - All constants are written in hexadecimal format. The leading digit of a hexadecimal constant always a numeric digit, (for example hexadecimal number abcd is written as 0abcd).
 - There can be parenthesized expressions. Pow operation can accept expressions.
+
+# How to compile and run the project?
+For Ubuntu 16.04:
+```
+g++ -std=c++11 main.cpp
+./a.out input.txt
+```
